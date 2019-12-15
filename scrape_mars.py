@@ -4,9 +4,9 @@ import time
 import pandas as pd
 
 def init_browser():
-    executable_path = {"executable_path": "C:/chromedriver/chromedriver"}
-    return Browser("chrome", **executable_path, headless=False)
-
+    executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+    return Browser('chrome', **executable_path, headless=False)
+    
 def scrape():
 
 ## Mars News
